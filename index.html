@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>QuizFlash1.1</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://www.hdwallpapers.in/download/dc_comics_the_flash-2560x1440.jpg" alt="">
+            <p>Qual é o verdadeiro nome do Flash?</p>
+            <button class="btn-proximo" data-proximo="1">Barry Allen</button>
+            <button class="btn-proximo" data-proximo="2">Wally West</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="https://cwlasvegas.com/resources/media2/16x9/full/1015/center/80/af9b9db2-a240-4cbc-b8ad-e2a09f3b66bb-large16x9_fla323b_0187b1.jpg" alt="">
+            <p>Parabéns, voçê acertou!</p>
+            <button class="btn-proximo" data-proximo="3">Próxima pergunta</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="https://static.wikia.nocookie.net/arrow/images/c/cf/Kid_Flash.png/revision/latest?cb=20200726230600&path-prefix=pt-br" alt="">
+            <p>Você perdeu!</p>
+            <button class="btn-proximo" data-proximo="5">Ver sinopse da série.</button>
+            <button class="btn-proximo" data-proximo="6">Ver o trailer da série</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTc4ZTFlYWMtYjc5NC00MzYxLTgwMjktNmVhMTdlMzY3M2U0L2ltYWdlXkEyXkFqcGdeQXVyNjc5Mjg0NjU@._V1_.jpg" alt="">
+            <p>Quem matou o pai do Barry?</p>
+            <button class="btn-proximo" data-proximo="7">Flash Reverso</button>
+            <button class="btn-proximo" data-proximo="7">Zoom</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>A série "The Flash", disponível na Netflix, é baseada no personagem dos quadrinhos da DC Comics. Ela segue Barry Allen, um criminologista que ganha superpoderes de velocidade após um acidente envolvendo um acelerador de partículas. Com seus novos poderes, Barry decide usar sua velocidade para combater o crime e proteger Central City, assumindo a identidade do Flash.
+
+                A série mistura ação, drama e elementos de ficção científica, explorando a vida de Barry enquanto ele enfrenta vilões, viaja no tempo e lida com as complexidades de ser um herói. Além de suas batalhas contra inimigos poderosos, ele também enfrenta desafios pessoais e relacionamentos complicados com amigos, familiares e outros heróis do universo DC. "The Flash" é conhecida por suas tramas envolventes e pela capacidade de entrelaçar eventos e personagens de outras séries e filmes do universo DC.</p>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IgVyroQjZbE?si=S5P39VTIa1fsg92K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p>Esse é o trailer da 1ºtemporada</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="https://i.ytimg.com/vi/MXZyZGqeMzU/maxresdefault.jpg" alt="">
+            <p>Parabéns, você chegou até aqui!</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta às igrejas, você finalmente encontra o mapa antigo. Agora, para o Amazonas!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O rio à esquerda leva você a uma cachoeira escondida com inscrições antigas que revelam a entrada da
+                cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O rio à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade perdida
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro rio</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da cidade perdida, você descobre tesouros inimagináveis e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o rio à esquerda, você finalmente encontra a cachoeira escondida e as inscrições
+                que levam à cidade perdida.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a cidade perdida</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>ipt>
+</body>
+</html>
